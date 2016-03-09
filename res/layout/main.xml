@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+                android:background="@drawable/milky_way">
+
+
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageSun"
+            android:src="@drawable/sun"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageMerc"
+            android:src="@drawable/merk"
+            android:layout_alignTop="@+id/imageSun"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageVenera"
+            android:src="@drawable/vebera"
+            android:layout_below="@+id/imageEarth"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="49dp"/>
+
+    <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageEarth"
+            android:src="@drawable/earth2"
+            android:layout_marginTop="63dp"
+            android:layout_below="@+id/imageMars"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/mars"
+            android:id="@+id/imageMars"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/imageComet"
+            android:src="@drawable/comet"
+            android:layout_below="@+id/imageMars"
+            android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
+

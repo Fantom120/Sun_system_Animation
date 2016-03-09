@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transition xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/sun"
+          android:right="0dp"/>
+    <item android:drawable="@drawable/sun2"
+          android:left="0dp"
+            />
+
+</transition>
